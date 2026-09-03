@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  
+  --color-canvas: #FDFBF7;
+  --color-canvas-card: #FFFFFF;
+  --color-canvas-subtle: #EFEBE4;
+  --color-earth-sand: #E5E0D8;
+  --color-earth-tan: #D8C7B5;
+  --color-earth-clay: #8E7B6D;
+  --color-earth-terracotta: #A67C52;
+  --color-earth-sage: #B0C4B1;
+  --color-earth-dark: #4A3F35;
+  --color-earth-muted: #6B5F54;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: var(--font-sans);
+    color: var(--color-earth-dark);
+    background-color: var(--color-canvas);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-serif);
+    color: var(--color-earth-dark);
+  }
+}
+

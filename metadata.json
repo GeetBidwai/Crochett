@@ -1,0 +1,6 @@
+{
+  "name": "Knot & Bloom — Artisan Handmade Crochet",
+  "description": "A warm, elegant boutique and gallery for handcrafted crochet bags, bouquets, amigurumi, and custom bespoke creations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

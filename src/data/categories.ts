@@ -1,0 +1,68 @@
+import { Category } from '../types';
+
+export const categories: Category[] = [
+  {
+    id: 'bags',
+    name: 'Crochet Bags',
+    slug: 'crochet-bags',
+    description: 'Hand-stitched totes, granny square slings, and delicate market pouches.',
+    image: 'https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=800&q=80',
+    itemCount: 4,
+  },
+  {
+    id: 'amigurumi',
+    name: 'Amigurumi',
+    slug: 'amigurumi',
+    description: 'Lovingly shaped miniature plush companions with hypoallergenic stuffing.',
+    image: 'https://images.unsplash.com/photo-1535295972055-1c762f4483e5?auto=format&fit=crop&w=800&q=80',
+    itemCount: 3,
+  },
+  {
+    id: 'flowers',
+    name: 'Crochet Flowers',
+    slug: 'crochet-flowers',
+    description: 'Everlasting blooms, standalone stems, and thoughtfully arranged gift bouquets.',
+    image: 'https://images.unsplash.com/photo-1563241527-3004b7be0ffd?auto=format&fit=crop&w=800&q=80',
+    itemCount: 3,
+  },
+  {
+    id: 'home-decor',
+    name: 'Home Decor',
+    slug: 'home-decor',
+    description: 'Cozy textured cushions, mug rugs, table runners, and hanging plant cradles.',
+    image: 'https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?auto=format&fit=crop&w=800&q=80',
+    itemCount: 3,
+  },
+  {
+    id: 'accessories',
+    name: 'Accessories',
+    slug: 'accessories',
+    description: 'Keychains, book sleeves, ear warmers, and artisanal hair ribbons.',
+    image: 'https://images.unsplash.com/photo-1606760227091-3dd870d97f1d?auto=format&fit=crop&w=800&q=80',
+    itemCount: 3,
+  },
+  {
+    id: 'clothing',
+    name: 'Clothing',
+    slug: 'clothing',
+    description: 'Lightweight open-stitch cardigans, summer halter tops, and seasonal vests.',
+    image: 'https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=800&q=80',
+    itemCount: 2,
+  },
+  {
+    id: 'gifts',
+    name: 'Gifts & Bundles',
+    slug: 'gifts',
+    description: 'Curated gift boxes complete with custom greeting tags and silk wrapping.',
+    image: 'https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80',
+    itemCount: 3,
+  },
+  {
+    id: 'custom-orders',
+    name: 'Custom Orders',
+    slug: 'custom-orders',
+    description: 'Bespoke creations designed strictly to your chosen palette and proportions.',
+    image: 'https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=800&q=80',
+    itemCount: 1,
+  },
+];
